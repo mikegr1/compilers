@@ -1,0 +1,91 @@
+Writeup
+
+1. group members: Bryce Townsend & Michael Griggs Course: CS4318.001
+
+2. Collaboration:
+	
+	All collaboration has been conducted through discord and text message. We meet about twice a week to discuss
+	what needs to be done on the project and have collaborative coding sessions where we work on the same things
+	together. If we are not collaboratively coding during a meeting, we code on our own time during the week, and
+	integrate what work we have done into the assignment we plan on turning in together during the weekly meetings. 
+	All of our code is made available on the texas state github website.
+
+3. Test examples:
+
+	1st independent test:
+			+
+			-
+			*
+			/
+			%
+			<
+			>
+			<=
+			>=
+			==
+			!=
+			=
+			[
+			]
+			{
+			}
+			(
+			)
+			,
+			;
+			@
+			++
+			--
+			&&
+			||
+			!
+		1st test was written to a .mc file, and was run using the scanner. 
+
+This specific test tests the recognition of operators and special characters in regards to tokenization.
+
+	2nd independent test:
+			'a'
+			"string"
+			"string
+		2nd test was written to a .mc file, and was run using the scanner.
+
+This specific test tests the scanner's ability to recognize valid strings and character constants.
+
+	3rd independent test:
+			/*comment*/
+			/*unterminated
+		3rd test was written to a .mc file, and was run using the scanner. 
+This specific test tests the scanner's ability to recognize a comment and unterminated comment.
+	
+	4th independent test:
+			"string"
+			"unterminated
+		4th test was written to a .mc file, and was run using the scanner.
+This specific test tests the scanner's ability to recognize a string and unterminated string.
+
+	5th independent test:
+			if
+			else
+			while
+			int
+			string
+			char
+			return
+			void
+		
+		5th test was written to a .mc file, and was run using the scanner.
+This specific test tests the scanner's ability to recognize reserved words or keywords.
+
+	6th independent test:
+			identifier 
+			IDENTIFIER
+			identifier123
+			00identifier
+		6th test was written to a .mc file, and was run using the scanner.
+This specific test tests the scanner's ability to recognize identifiers and produces an error if leading with a 0.
+	
+			
+	
+
+			
+
