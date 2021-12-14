@@ -1,0 +1,13 @@
+Writeup 
+
+1. Names: Bryce Townsend and Michael Griggs CS 4318
+
+2. We plan to meet every other day in the evenings when we are both free to work on the project.
+
+3. Our plan to implement the parser is to first correct errors that were identified in our scanner from the first assignment where we implemented the scanner. We then plan to correct these and move on to add and understand all of the grammars in the parser file in Yacc and implement their functionality. We then plan to implement the tree with an N-Array then the Symbol Table via a hash table. We plan on working on the project together by meeting in the evenings every other day and walking through each part of the project until completion to avoid miscommunication and potential problems with compilation. As a whole, we both are looking to implement all the different components of the project together without necessarily dividing up individual parts. 
+
+4. Using the provided testing files, we used the template files including the scanner. 
+	1.We used the edge case file and the provided examples
+	2.Tested the correctness by error checking. We fixed errors line by line until the program was compilable. 
+
+5. The parts implemented by each of us: Michael and Bryce worked together for every portion of the assignment  to understand and link together all the different components of each file. A big portion of the tree was implemented by Bryce. Michael implemented heavily in the symbol table and parser. Bryce did a heavy amount of the testing and error correcting. 
