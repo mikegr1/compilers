@@ -1,0 +1,37 @@
+1. Michael Griggs & Bryce Townsend, both taking CS4318
+
+2. We will meet November 23rd to discuss implementations, and then call ad hoc meetings as needed until the December 1st due date.
+
+3. Parser, symbol table, and driver were updated by Michael Griggs. In terms of code generation, Bryce Townsend implemented expressions,
+   assignments, conditional statments, and the activation record. We both tried to debug.
+4. 
+
+	test code:
+int q = 3;
+int main(){
+	int z = 0;
+	output(5);
+	if(q == 3){
+	  z = 4;
+	}
+
+	for(int l = 0; l < z; l++){
+		if(l < z){
+			z = z + z;
+		}
+
+		if(z > l){
+			z = z - l;
+		}
+	}
+}
+
+
+5. Known bugs: too many symbol table functions to implement that we did not understand how to do. These functions came from the feedback
+		provided to us after assignment 3 had been graded. 
+
+6. we tried to use the stack pointer to denote the start of a function, and a frame pointer to denote its endpoint.
+   When the stack pointer reaches the frame pointer, the next function waits at the next memory location after the frame pointer.
+
+7. ideally, you would run the the make file and then use obj/(test file). this would produce a .asm document that would then be 
+   loaded into QTspim and then ran. unfortuantely this did not happen.
