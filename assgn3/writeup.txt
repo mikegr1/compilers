@@ -1,0 +1,8 @@
+1. Michael Griggs, Bryce Townsend, CS4318
+
+2.Project was worked on every other day starting on October 29th to Novembor 6th.A
+slip day was used. Discord was used for the virtual meetings
+
+3. Micahel implemented the parser and the symbol table. Bryce helped with the testing and debugging.
+
+4. The code was tested using the provided test cases as well as the edge_case.Mc file from the previous assignment
